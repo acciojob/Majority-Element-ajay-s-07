@@ -27,8 +27,8 @@ function majorityElementChecker(arr)
 		}
 		else
 			map.set(arr[i],1);
-		}
-		document.write(" No Majority element");
+	}
+	document.write(" No Majority element");
 }
 let arr = [2,1,2];
 majorityElementChecker(arr);
